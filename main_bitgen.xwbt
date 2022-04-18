@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\bcoban17\Desktop\elec204_project-20191130T163219Z-001\elec204_project\project\main.ncd
+OUTFILE=C:\Users\bcoban17\Desktop\elec204_project-20191130T163219Z-001\elec204_project\project\main.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5vq100
+WORKINGDIR=C:\Users\bcoban17\Desktop\elec204_project-20191130T163219Z-001\elec204_project\project
+LICENSE=WebPack
+USER_INFO=211821685_0_0_554

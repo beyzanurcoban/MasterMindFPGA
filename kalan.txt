@@ -1,0 +1,56 @@
+process
+begin
+if(number1 = check1) then
+	correct_number <= correct_number + "0001";
+	correct_place <= correct_place + "0001";
+elsif(number1 = check2) then
+	correct_number <= correct_number + "0001";
+elsif(number1 = check3) then
+	correct_number <= correct_number + "0001";
+else
+	correct_number <= correct_number + "0000";
+	correct_place <= correct_place + "0000";
+end if;
+
+if(number2 = check1) then
+	correct_number <= correct_number + "0001";
+elsif(number2 = check2) then
+	correct_number <= correct_number + "0001";
+	correct_place <= correct_place + "0001";
+elsif(number2 = check3) then
+	correct_number <= correct_number + "0001";
+else
+	correct_number <= correct_number + "0000";
+	correct_place <= correct_place + "0000";
+end if;
+
+if(number3 = check1) then
+	correct_number <= correct_number + "0001";
+elsif(number3 = check2) then
+	correct_number <= correct_number + "0001";
+elsif(number3 = check3) then
+	correct_number <= correct_number + "0001";
+	correct_place <= correct_place + "0001";
+else
+	correct_number <= correct_number + "0000";
+	correct_place <= correct_place + "0000";
+end if;
+end process;
+
+a <= correct_place;
+b <= correct_number;
+c <= attempt;
+
+Inst_sevenSegment: sevenSegment PORT MAP(
+		A => a,
+		B => b,
+		C => c,
+		D => x"c",
+		E => x"c",
+		F => x"c",
+		G => x"c",
+		H => x"c",
+		clk => clk,
+		SevenSegControl => SevenSegControl,
+		SevenSegBus => SevenSegBus
+	);

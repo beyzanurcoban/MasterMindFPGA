@@ -1,0 +1,6 @@
+vhdl work "C:\Users\bcoban17\Desktop\elec204_project-20191130T163219Z-001\elec204_project\project\slowerClock.vhd"
+vhdl work "C:\Users\bcoban17\Desktop\elec204_project-20191130T163219Z-001\elec204_project\project\driver.vhd"
+vhdl work "C:\Users\bcoban17\Desktop\elec204_project-20191130T163219Z-001\elec204_project\project\decoder.vhd"
+vhdl work "C:\Users\bcoban17\Desktop\elec204_project-20191130T163219Z-001\elec204_project\project\sevenSegment.vhd"
+vhdl work "C:\Users\bcoban17\Desktop\elec204_project-20191130T163219Z-001\elec204_project\project\debounce_v1.vhd"
+vhdl work "C:\Users\bcoban17\Desktop\elec204_project-20191130T163219Z-001\elec204_project\project\main.vhd"
